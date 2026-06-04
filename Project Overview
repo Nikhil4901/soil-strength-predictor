@@ -1,0 +1,87 @@
+# Soil Strength Predictor using Machine Learning
+
+## Project Overview
+
+This project presents a Machine Learning-based Soil Strength Prediction System capable of estimating two important geotechnical engineering parameters:
+
+1. California Bearing Ratio (CBR)
+2. Unconfined Compressive Strength (UCS)
+
+The application utilizes trained machine learning models to predict soil strength characteristics from user-provided input parameters. The system is designed to assist civil engineers, geotechnical engineers, researchers, and students in obtaining quick and reliable estimates of soil properties without extensive laboratory testing.
+
+## Objectives
+
+- Develop accurate machine learning models for predicting CBR and UCS values.
+- Reduce the time and cost associated with conventional laboratory testing.
+- Provide a user-friendly graphical interface for easy prediction.
+- Demonstrate the application of Artificial Intelligence in geotechnical engineering.
+
+## Methodology
+
+The project involves the following steps:
+
+1. Collection and preprocessing of soil datasets.
+2. Data cleaning, normalization, and feature scaling.
+3. Training multiple machine learning algorithms.
+4. Selection of the best-performing models based on evaluation metrics.
+5. Saving trained models and scaler objects using Pickle (.pkl) files.
+6. Development of a Graphical User Interface (GUI) for real-time predictions.
+
+## Project Features
+
+- Predicts California Bearing Ratio (CBR).
+- Predicts Unconfined Compressive Strength (UCS).
+- Uses pre-trained machine learning models.
+- Interactive GUI for user input and result visualization.
+- Fast and efficient prediction process.
+- Easy deployment and reproducibility.
+
+## Project Structure
+
+soil-strength-predictor/
+
+├── models/
+│   ├── model_cbr.pkl
+│   ├── model_ucs.pkl
+│   └── scaler.pkl
+
+├── src/
+│   └── GUI.py
+
+├── requirements.txt
+
+├── README.md
+
+└── .gitignore
+
+## Technologies Used
+
+- Python
+- Scikit-learn
+- Pandas
+- NumPy
+- Joblib/Pickle
+- Tkinter (GUI)
+- Machine Learning
+
+## Applications
+
+- Pavement design studies.
+- Geotechnical site investigations.
+- Soil strength estimation.
+- Academic and research purposes.
+- Preliminary infrastructure planning.
+
+## Future Scope
+
+- Integration of additional soil parameters.
+- Web-based deployment using Streamlit or Flask.
+- Cloud-based prediction services.
+- Automated report generation.
+- Enhanced model accuracy through larger datasets.
+
+## Author
+
+Nikhil Tiwari
+
+Machine Learning for Geotechnical Engineering: CBR and UCS Prediction
